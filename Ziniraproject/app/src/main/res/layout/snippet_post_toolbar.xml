@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+    <merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            >
+            <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_gray_border_settings"
+            android:id="@+id/profileToolBar">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/backArrow"
+                        android:layout_width="25dp"
+                        android:backgroundTint="@color/blue"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/ic_back"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textSize="15sp"
+                        android:layout_toRightOf="@id/backArrow"
+                        android:text="Views Photos"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginLeft="30dp"
+                        android:id="@+id/BackLabel"/>
+
+                </RelativeLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+</merge>

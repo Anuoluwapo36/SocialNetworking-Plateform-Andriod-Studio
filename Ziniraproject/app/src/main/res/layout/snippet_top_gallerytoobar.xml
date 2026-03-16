@@ -1,0 +1,48 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_gray_border_settings"
+
+            android:id="@+id/profileToolBar">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/yesteryear_regular"
+                    android:layout_centerVertical="true"
+                    android:text="@string/app_name"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/appName"
+
+                    />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/profileImageId"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_profile"
+                  />
+
+            </RelativeLayout>
+
+
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</merge>

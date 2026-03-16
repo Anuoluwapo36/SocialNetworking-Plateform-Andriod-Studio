@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/snippet_comment_toolbar"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relLayout1"
+        android:layout_marginBottom="50dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView">
+
+        </ListView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@id/relLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/white_gray_border_bottom">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:padding="1dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/voiceComment"
+            android:src="@drawable/ic_mic_comment"
+          />
+
+        <EditText
+            android:id="@+id/commentInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="50dp"
+            android:background="@null"
+            android:hint="comment..."
+            android:padding="10dp"
+            android:layout_toRightOf="@id/voiceComment"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp" />
+        <View
+            android:id="@+id/recordingIndicator"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/voiceComment"
+            android:background="@drawable/red_circle"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/postComment"
+            android:scaleType="centerInside"
+            android:padding="7dp"
+            android:src="@drawable/ic_send"
+            android:layout_alignParentRight="true" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

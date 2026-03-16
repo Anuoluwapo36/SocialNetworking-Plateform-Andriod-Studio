@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ZiniraApplication" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/zinira_logo_transparent</item>
+    </style>
+</resources>

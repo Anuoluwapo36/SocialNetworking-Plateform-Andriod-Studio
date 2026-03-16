@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057737213982",
+    "firebase_url": "https://zinira-273eb-default-rtdb.firebaseio.com",
+    "project_id": "zinira-273eb",
+    "storage_bucket": "zinira-273eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057737213982:android:140d407b31a73eac16c60f",
+        "android_client_info": {
+          "package_name": "com.example.ziniraproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057737213982-c9vluh1fokllhan8lguph0s59gjg4t0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ziniraproject",
+            "certificate_hash": "0ff4aceb4e7ed1545cf9d3c57ddbb85f26a2cac6"
+          }
+        },
+        {
+          "client_id": "1057737213982-8n7oapvpscgrprm3qn4ntl3grpahm9tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqu_gH3hou8BhLXSAopN99VmNq-0vaNgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057737213982-8n7oapvpscgrprm3qn4ntl3grpahm9tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/ic_backArrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/ic_new_back"
+            android:fontFamily="monospace"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_comments"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/blue"
+            android:layout_centerVertical="true"
+            android:textSize="11sp"
+            android:textStyle="bold"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</merge>

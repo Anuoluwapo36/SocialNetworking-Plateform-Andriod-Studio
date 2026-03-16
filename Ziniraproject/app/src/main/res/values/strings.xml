@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Zinira</string>
+    <string name="home">home</string>
+    <string name="create">create</string>
+    <string name="message">message</string>
+    <string name="profile">profile</string>
+    <string name="notification">notification</string>
+    <string name="search">search</string>
+    <string name="cover">cover</string>
+    <string name="follower_count">0</string>
+
+    <string name="follower">followers</string>
+    <string name="following">following</string>
+    <string name="following_count">0</string>
+    <string name="settings">settings</string>
+    <string name="user_name">Users</string>
+    <string name="bio">bio</string>
+    <string name="dashboard">dashboard</string>
+    <string name="edit">Edit</string>
+    <string name="display">display</string>
+    <string name="Edit">Edit</string>
+
+
+    <!--settings strings-->
+    <string name="general_settings">General  Settings</string>
+    <string name="edit_profile_fragment">Edit</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="username">Username</string>
+    <string name="cover_photo">Cover photo</string>
+    <string name="region_location">Region / Location</string>
+    <string name="account_settings">Account  Settings</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password_change">Password Change</string>
+    <string name="two_fa_authentication">2FA Authentication</string>
+
+    <string name="privacy_security">Privacy and Security</string>
+    <string name="profile_visibility">Profile Visibility (Public/Private)</string>
+    <string name="ip_location">IP Location</string>
+
+    <string name="notification_settings">Notification Settings</string>
+    <string name="sound_vibration_settings">Sound and Vibration Settings</string>
+
+    <string name="content_preferences">Content Preferences</string>
+    <string name="language_preferences">Language Preferences</string>
+
+    <string name="appearance_customization">Appearance and Customization</string>
+    <string name="theme_mode">Theme (Light/Dark Mode)</string>
+    <string name="layout_preferences">Layout Preferences</string>
+    <string name="display_settings">Display Settings</string>
+
+    <string name="account_management">Account Management</string>
+    <string name="request_verification">Request Verification</string>
+    <string name="download_data_history">Download My Data History</string>
+    <string name="web_usage">Web Usage</string>
+    <string name="logout">logout</string>
+
+
+    <!--fragment-->
+    <string name="log_out_fragment">Log Out</string>
+    <string name="profile_fragment">Profile</string>
+    <string name="view_post_fragment">View_post_fragment</string>
+    <string name="view_comments_fragment">View Comments </string>
+    <string name="field_comments"> comments</string>
+    <string name="view_profile_fragment">view_profile</string>
+
+
+
+    <!--confirm dialog-->
+
+    <string name="confirm_password_dialog">ConfirmProfileDialog</string>
+
+
+    <!--Bundle arg names-->
+    <string name="activity_number">activity_number</string>
+    <string name="bundle_photo">bundle_photo</string>
+    <string name="bundle_user_account_settings">bundle_user_account_settings</string>"
+    <string name="home_activity">Home Activity</string>
+
+
+
+
+    <string name="back_arrow">back arrow</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_display_image">change display image</string>
+    <string name="change_username">Change username</string>
+    <string name="display_name">display name</string>
+    <string name="about_you">about you</string>
+    <string name="personal_confidential_information">Personal Confidential Information</string>
+    <string name="mail_email">mail/email</string>
+    <string name="description">description</string>
+    <string name="description_edit">description edit</string>
+    <string name="email">Email  Address</string>
+    <string name="tel">Tel</string>
+    <string name="post_image">post image</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="forget_password">forget password</string>
+    <string name="signup_new_member">signup new member</string>
+    <string name="other_tech_party_signup_method">other tech party signup method</string>
+    <string name="tiktok">tiktok</string>
+    <string name="ig">ig</string>
+    <string name="zinira_phone">zinira phone</string>
+    <string name="facebook">facebook</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="firstname">firstname</string>
+    <string name="lastname">lastname</string>
+    <string name="have_account_login_here">Have account!login here</string>
+    <string name="continue_login">continue</string>
+    <string name="complete_registration">complete registration</string>
+    <string name="agreement_and_terms_and_condtions">Agreement and Terms and Condtions</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="yyy_mm_dy">YYY/MM/DY</string>
+    <string name="agreement_and_terms_and_conditions">Agreement and terms and conditions</string>
+    <string name="gender">Gender</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="next">next</string>
+    <string name="skip">skip</string>
+
+      <!---firebase message-->
+      <string name="auth_failed">verification failed</string>
+    <string name="auth_success">verification successful</string>
+    <string name="create_account">create Account</string>
+    <string name="welcome">welcome</string>
+    <string name="stay_connected">Stay connected , Stay Social</string>
+    <string name="start">Start</string>
+    <string name="field_user_id">user_id</string>
+    <string name="field_likes">likes</string>
+
+    <string name="field_caption">caption</string>
+    <string name="field_date_created">date_created</string>
+    <string name="field_photo_id">photo_id</string>
+    <string name="field_tags">tags</string>
+    <string name="field_image_path">image_path</string>
+
+
+
+
+    <!-- firebase database-->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbname_photos">photos</string>
+    <string name="dbname_user_photos">user_photos</string>
+    <string name="dbname_following">following</string>
+    <string name="dbname_followers">follower</string>
+    <string name="dbname_notifications">notification</string>
+
+    <string name="field_username">username</string>
+    <string name="field_full_name">full name</string>
+    <string name="field_email">email</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_about_me">about</string>
+    <string name="field_phone_number">phone_number</string>
+
+
+
+
+
+
+    <!--logging out -->
+    <string name="signout">Signout</string>
+    <string name="signing_out">Signing out...</string>
+    <string name="requesting_permisssion_to_signout">Requesting permisssion to signout</string>
+    <string name="displayname">Full name</string>
+
+
+    <!--Intent Extra-->
+    <string name="calling_activity">\n</string>
+    <string name="selected_image">selected image</string>
+    <string name="return_to_fragment"> return_to_fragment</string>
+    <string name="intent_user"> intent_user </string>
+
+    <!-- activity names -->
+    <string name="profile_activity">\n</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">cancel</string>
+    <string name="search_activity">Search Activity</string>
+    <string name="please_enter_password_again_to_complete_modification">Please enter password again to complete modification</string>
+
+<!--photo_type-->
+    <string name="new_photo">new_photo</string>
+    <string name="profile_photo">profile_photo</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+
+
+    <!--string create-->
+    <string name="gallery">GALLERY</string>
+    <string name="photo">PHOTO</string>
+    <string name="tap_to_launch_camera">Tap to Launch camera</string>
+    <string name="camera">Camera</string>
+    <string name="display_gallery_image_view">display gallery image view</string>
+    <string name="todonext">TOdonext</string>
+    <string name="new_post">new post</string>
+    <string name="share_share">share</string>
+    <string name="view_comments">View comments</string>
+
+
+</resources>
